@@ -1,0 +1,92 @@
+#indice {
+    background-color: rgb(0, 108, 103);
+    padding: 20px 0;
+    text-align: center;
+}
+
+.indice {
+    margin: 10px;
+    text-decoration: none;
+    padding: 10px;
+    background-color: transparent;
+    color: white;
+    border-radius: 5%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+    background-color: white;
+    font-family: monospace;
+}
+
+h1, h2{
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 3em;
+}
+
+#guilherme {
+    border-radius: 100%;
+    border: 10px solid white;
+}
+
+.intro-guilherme {
+    text-align: center;
+    background-color: #FE9000;
+    padding: 5%;
+}
+
+.intro-guilherme p {
+    
+    font-size: 20px;
+    padding: 0 30%;
+}
+
+.about-me, .softskill, .hardskill{
+    padding: 5%;
+    line-height: 3em;
+   
+}
+
+.about-me {
+    background-color: #90DDF0;
+}
+
+ul{
+    font-size: 20px;
+    list-style-type: none;
+}
+
+.about-me ul .white{
+    background-color: rgb(0, 108, 103);
+    padding: 10px;
+    color: white;
+}
+
+.about-me a{
+    text-decoration: none;
+    color: #006C67;
+}
+
+.softskill {
+    background-color: rgb(0, 108, 103);
+    color: white;
+}
+
+.softskill li{
+    text-align: center;
+    margin: 10px
+;}
+
+.hardskill {
+    background-color: #FE9000;
+    text-align: center;
+}
+
+#footer {
+    padding: 2% 0;
+    text-align: center;
+    font-size: 15px;
+}

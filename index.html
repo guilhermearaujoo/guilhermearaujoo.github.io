@@ -4,82 +4,82 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
     <title>Guilherme Araujo</title>
 </head>
 <body>
-    <h1>Guilherme Araujo</h1>
 
-    <p>A few useful links</p>
+    <!--Indice da pagina-->
 
-    <ol>
-        <li>
-            <a href="https://www.linkedin.com/in/guilherme-araujo-644b6419b/">Follow me on Linkdin</a>
-        </li>
-        <li> 
-            <a href="http://127.0.0.1:5500/perfil.jpeg">Suprise yourself</a>
-        </li>
-        <li>
-            <a href="#soft">SoftSkills</a>
-        </li>
-        <li>
-            <a href="#hard">HardSkills</a>
-        </li>
-    </ol>     
+    <div id="indice">
+        <a class="indice" href="https://www.linkedin.com/in/guilherme-araujo-644b6419b/">Follow me on Linkdin</a>
+        
+        <a class="indice" href="http://127.0.0.1:5500/perfil.jpeg">Suprise yourself</a>
+    
+        <a class="indice" href="#soft">SoftSkills</a>
+    
+        <a class="indice" href="#hard">HardSkills</a>
+    </div>
 
-    <hr>
-    <br>
-    <img src="./perfil.jpeg" alt="Guilherme Araujo" width="200px">
+    <!--Header-->
 
+    <div class="intro-guilherme">
+        <h1 id="titulo">Guilherme Araujo</h1>
+        <img id="guilherme" src="./images/perfil.jpeg" alt="Guilherme Araujo" width="200px">
+
+        <p>
+            I'm a <strong>21 years old developer</strong>, currently studying at <strong>Trybe</strong>, a Online Programing School for the future.
+        </p>
+    </div>
    
-    <p>
-        I'm a <strong>21 years old developer</strong>, currently studying at <strong>Trybe</strong>, a Online Programing School for the future.
-    </p>
+    <div class="about-me">
 
-    <ul>
-        <li>
-            I'm based in <em>São Paulo, SP</em>
-        </li>
-        <li>
-            You can contact me at <em>ghma.em@gmail.com</em>
-        </li>
-        <li>
-            I'm currently working on <em>VarejOnline - Sistema de Gestão Empresarial</em>
-        </li>
-        <li>
-            I'm learning Shell Script, HTML, CSS, Git, GitHub and JavaScript
-        </li>
-        <li>
-            I love games and my favorite is <strong><em>Apex Legends</em></strong> (DM me for a gameplay)
-        </li>
-    </ul>
-
-    <hr>
-    <br>
+        <h2>Sobre mim</h2>
+        <ul>
+            <li>
+                I'm based in <em>São Paulo, SP</em>
+            </li>
+            <li class="white">
+                You can contact me at <strong><em>ghma.em@gmail.com</em></strong>
+            </li>
+            <li>
+                I'm currently working on <em>VarejOnline - Sistema de Gestão Empresarial</em>
+            </li>
+            <li class="white">
+                I'm learning Shell Script, HTML, CSS, Git, GitHub and JavaScript
+            </li>
+            <li>
+                I love games and my favorite is <strong><em>Apex Legends</em></strong> <a href="https://www.instagram.com/guilhermehmaraujo/">(DM me for a gameplay)</a>
+            </li>
+        </ul>
+    </div>
     
-    <h3 id="soft">My SoftSkills</h3>
-    <ul>
-        <li>Charisma</li>
-        <li>Team Work</li>
-        <li>Empathy</li>
-    </ul>
+    <div class="softskill">
+        <h2 id="soft">My SoftSkills</h3>
+        <ul>
+            <li>Charisma</li>
+            <li>Team Work</li>
+            <li>Empathy</li>
+        </ul>
+    </div>
 
-    <hr>
-    <br>
+    <div class="hardskill">
+        <h2 id="hard">My HardSkills</h3>
+        <ul>
+            <li>Pyhton</li>
+            <li>C++ and C</li>
+            <li>Git and GitHub</li>
+            <li>Unix and Basic ShellScript</li>
+        </ul>
+    </div>
 
-    <h3 id="hard">My HardSkills</h3>
-    <ul>
-        <li>>Pyhton</li>
-        <li>C++ and C</li>
-        <li>Git and GitHub</li>
-        <li>Unix and Basic ShellScript</li>
-    </ul>
-
-    <hr>
-    <br>
-
-    <p>See my profile on GitHub:</p>
+    <!--Footer-->
+    <div id="footer">
+        See my profile on GitHub
     
-    <a href="https://github.com/guilhermearaujoo" target="_blank"><img src="./github.png" alt="github" width="30px"></a>
+        <a href="https://github.com/guilhermearaujoo" target="_blank"><img src="./images/github.png" alt="github" width="30px"></a>
+    </div>
+    
     
 </body>
 </html>
