@@ -76,6 +76,13 @@ ul{
 .about-me a{
     text-decoration: none;
     color: #006C67;
+    transform: font-size;
+}
+
+.about-me a:hover{
+    text-decoration: underline;
+    font-size: larger;
+    transition: ease-in;
 }
 
 .hardskill li, .softskill li{
