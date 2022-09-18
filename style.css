@@ -1,15 +1,17 @@
 #indice {
     background-color: rgb(0, 108, 103);
-    padding: 20px 0;
     text-align: center;
+    padding: 25px;
+    position: fixed;
+    width: 100%;
 }
 
 #indice div{
+    vertical-align: middle;
     display: inline-block;
-    padding: 10px;
+    padding: 5px 20px 5px;
     font-family: system-ui;
 }
-
 
 #indice div a{
     text-decoration: none;
@@ -17,11 +19,12 @@
     color: white;
 }
 
-#indice div:hover {
+#indice a:hover{
     border: 2px solid white;
     padding: 20px;
     transition-duration: .5s;
 }
+
 
 body {
     margin: 0;
@@ -36,89 +39,134 @@ h1, h2{
     font-size: 3em;
 }
 
+#home {
+    background-color: #FE9000;
+    padding:  15% 5% 7%;
+}
+
+#home div{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#home div:nth-child(1) {
+    width: 42%;
+    padding-left: 12%;
+    padding-right: 5%;
+}
+
+#home div:nth-child(1) p{
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+#home div:nth-child(1) p:last-child{
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+#home div:nth-child(1) h1{
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+#home div:nth-child(1) a{
+    color: white;
+    margin-top: 5%;
+    display: inline-block;
+    border: 1px solid #006C67;
+    background-color: #006C67;
+    border-radius: 25px;
+    padding: 17px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bolder;
+    text-align: center;
+    transition: padding;
+}
+
+#home div:nth-child(1) a:hover{
+    border: 2px solid white;
+    font-size: larger;
+    transition-duration: .5s;
+    padding: 20px;
+}
+
+#home div:nth-child(2) {
+    text-align: left;
+}
+
 #guilherme {
     border-radius: 100%;
     border: 10px solid white;
 }
 
-#img-text div{
-    display: inline-block;
-    width: 49%;
-    vertical-align: middle;
-}
-
-#img-text div:first-child {
-    text-align: right;
-}
-
-#intro-guilherme {
-    background-color: #FE9000;
-    padding:  2% 5% 5%;
-}
-
-#intro-guilherme p{
-    font-size: 20px;
-    width: 50%;
-    padding-left: 5%;
-}
-
-.about-me, .softskill, .hardskill{
+#about-me, #softskill, #hardskill{
     padding: 2% 5% 5%;
     line-height: 3em;
 }
 
-.about-me {
+#about-me {
     background-color: #90DDF0;
+    text-align: center;
 }
+
+#about-me li{
+    margin: auto;
+    width: 70%;
+    padding: 1% 0;
+}
+
 
 ul{
     font-size: 20px;
     list-style-type: none;
 }
 
-.about-me ul .white{
+#about-me ul .white{
     background-color: rgb(0, 108, 103);
     padding: 10px;
     color: white;
 }
 
-.about-me a{
+#about-me a{
     text-decoration: none;
     color: #006C67;
     transform: font-size;
 }
 
-.about-me a:hover{
-    text-decoration: underline;
+#about-me a:hover{
     font-size: larger;
-    transition: ease-in;
+    transition-duration: 1s;
 }
 
-.hardskill li, .softskill li{
+#hardskill li, #softskill li{
     font-size: 24px;
     margin: 2%;
 }
 
-.softskill {
+#softskill {
     background-color: rgb(0, 108, 103);
     color: white;
     text-align: center;
 }
 
 
-.softskill li:nth-child(odd) {
+#softskill li:nth-child(odd) {
     background-color: #FE9000;
     color: black;
     display: inline;
     padding: 10px 20px;
 }
 
-.hardskill {
+#hardskill {
     background-color: #FE9000;
     text-align: center;
 }
 
-.hardskill li:nth-child(odd) {
+#hardskill li:nth-child(odd) {
     background-color: #006C67;
     color: white;
     display: inline;
