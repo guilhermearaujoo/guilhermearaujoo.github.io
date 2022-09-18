@@ -142,6 +142,51 @@ ul{
     transition-duration: 1s;
 }
 
+#abilities {
+    vertical-align: middle;
+    height: 350px;
+    padding-top: 5%;
+    padding-bottom: 8%;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+#abilities h2{
+    margin-bottom: 2%;
+}
+
+#abilities img{
+    width: 80px;
+    padding: 1%;
+}
+
+#images, #description{
+    text-align: right;
+    width: 48%;
+    display: inline-block;
+}
+
+#description {
+    padding-left: 2%;
+    vertical-align: top;
+}
+
+#description p{
+    text-align: left;
+    width: 50%;
+    font-size: larger;
+}
+
+#images img{
+    opacity: 80%;
+}
+
+#images img:hover{
+    opacity: 100%;
+    width: 100px;
+}
+
 #hardskill li, #softskill li{
     font-size: 24px;
     margin: 2%;
