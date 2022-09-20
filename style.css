@@ -1,164 +1,164 @@
 /*Indice*/
 
 header {
-    background-color: #1d1e26;
-    text-align: center;
-    padding: 15px 0;
-    position: fixed;
-    width: 100%;
-    z-index: 1;
-    box-shadow: 0 5px 10px 0 rgb(0 0 0 / 15%);
+  background-color: #1d1e26;
+  text-align: center;
+  padding: 15px 0;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  box-shadow: 0 5px 10px 0 rgb(0 0 0 / 15%);
 }
 
-header ul li{
-    display: inline-block;
-    padding: 0 20px;
-    font-family: system-ui;
+header ul li {
+  display: inline-block;
+  padding: 0 20px;
+  font-family: system-ui;
 }
 
-
-header a{
-    text-decoration: none;
-    background-color: transparent;
-    color: #f8f8f2;
+header a {
+  text-decoration: none;
+  background-color: transparent;
+  color: #f8f8f2;
 }
 
-header a:hover{
-    border: 2px solid #f8f8f2;
-    padding: 20px;
-    transition-duration: .5s;
+header a:hover {
+  border: 2px solid #f8f8f2;
+  padding: 20px;
+  transition-duration: 0.5s;
 }
 
 /*-----------------*/
 
-
 body {
-    margin: 0;
-    width: 100%;
-    font-family: monospace;
-    color: #f8f8f2;
+  margin: 0;
+  width: 100%;
+  font-family: monospace;
+  color: #f8f8f2;
 }
 
-
-h1, h2{
-    text-align: center;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 3em;
-    color: #50fa7b;
+h1,
+h2 {
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 3em;
+  color: #50fa7b;
 }
 
 /*home*/
 
 main article:nth-child(1) {
-    background-color: #282a36;
+  background-color: #282a36;
 }
 
-main article:nth-child(1) section{
-    padding: 15% 0 10%;
-    display: inline-block;
-    vertical-align: middle;
+main article:nth-child(1) section {
+  padding: 15% 0 10%;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 main article:nth-child(1) section:nth-child(1) {
-    width: 42%;
-    padding-left: 12%;
+  width: 42%;
+  padding-left: 12%;
 }
 
-main article:nth-child(1) section p{
-    font-size: 20px;
-    margin: 0;
-    padding: 0;
+main article:nth-child(1) section p {
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
 }
 
-main article:nth-child(1) section p:nth-child(2){
-    font-weight: bolder;
-    font-size: 25px;
+main article:nth-child(1) section p:nth-child(2) {
+  font-weight: bolder;
+  font-size: 25px;
 }
 
-main article:nth-child(1) section:nth-child(1) h1{
-    text-align: left;
-    margin: 0;
-    padding: 0;
+main article:nth-child(1) section:nth-child(1) h1 {
+  text-align: left;
+  margin: 0;
+  padding: 0;
 }
 
-main button{
-    margin-top: 20px;
-    border: 1px solid #50fa7b;
-    background-color: #282a36;
-    border-radius: 25px;
-    padding: 17px;
-    text-align: center;
-    transition: padding;
+main button {
+  margin-top: 20px;
+  border: 1px solid #50fa7b;
+  background-color: #282a36;
+  border-radius: 25px;
+  padding: 17px;
+  text-align: center;
+  transition: padding;
 }
 
-main article:nth-child(1) button a{
-    text-decoration: none;
-    color: #50fa7b;
-    font-size: 15px;
-    font-weight: bolder;
+main article:nth-child(1) button a {
+  text-decoration: none;
+  color: #50fa7b;
+  font-size: 15px;
+  font-weight: bolder;
 }
 
 main article:nth-child(1) button:hover {
-    border: 2px solid #50fa7b;
-    font-size: larger;
-    transition-duration: .5s;
-    padding: 20px;
+  border: 2px solid #50fa7b;
+  font-size: larger;
+  transition-duration: 0.5s;
+  padding: 20px;
 }
 
-main article:nth-child(1) section:nth-child(2){
-    text-align: left;
+main article:nth-child(1) section:nth-child(2) {
+  text-align: left;
 }
 
 #guilherme {
-    border-radius: 100%;
-    border: 10px solid #f8f8f2;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 100%;
+  border: 10px solid #f8f8f2;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 /*-----------------*/
 
 /*Projects*/
 
 #projects {
-    background-color: #1d1e26;
-    color: #f8f8f2;
-    padding: 5% 0;
-    text-align: center;
+  background-color: #1d1e26;
+  color: #f8f8f2;
+  padding: 5% 0;
+  text-align: center;
 }
 
-#projects-img div{
-    width: 30%;
-    display: inline-block; 
+#projects-img div {
+  width: 30%;
+  display: inline-block;
 }
 
-#projects img{
-    animation: none;
-    width: 70%;
-    animation: none;
-    border: 2px solid #f8f8f2;
+#projects img {
+  opacity: 80%;
+  animation: none;
+  width: 70%;
+  animation: none;
+  border: 2px solid #f8f8f2;
 }
 
-#projects #buttom{
-    padding: 20px 0;
-    font-size: 15px;
+#projects #buttom {
+  padding: 20px 0;
+  font-size: 15px;
 }
 
-#projects button{
-    border: 2px solid #50fa7b;
-    margin-top: 20px;
-    background-color: #1d1e26;
-    padding: 10px 60px;
-    font-size: 15px;
-    border-radius: 25px;
-    font-family: monospace;
-    font-weight: bolder;
-    color: #50fa7b;
+#projects button {
+  border: 2px solid #50fa7b;
+  margin-top: 20px;
+  background-color: #1d1e26;
+  padding: 10px 60px;
+  font-size: 15px;
+  border-radius: 25px;
+  font-family: monospace;
+  font-weight: bolder;
+  color: #50fa7b;
 }
 
 #projects button:hover {
-    font-size: larger;
-    padding: 15px 50px;
-    transition-duration: .5s;
-    border: 2px solid #50fa7b;
+  font-size: larger;
+  padding: 15px 50px;
+  transition-duration: 0.5s;
+  border: 2px solid #50fa7b;
 }
 
 /*-----------------*/
@@ -166,117 +166,118 @@ main article:nth-child(1) section:nth-child(2){
 /*About me*/
 
 #about-me {
-    background-color: #282a36;
-    text-align: center;
-    padding: 8% 0;
-    line-height: 3em;
+  background-color: #282a36;
+  text-align: center;
+  padding: 8% 0;
+  line-height: 3em;
 }
 
-#about-me a{
-    font-weight: bolder;
-    text-decoration: none;
-    color: #50fa7b;
-    opacity: 80%;
-    transform: opacity;
+#about-me a {
+  font-weight: bolder;
+  text-decoration: none;
+  color: #50fa7b;
+  opacity: 80%;
+  transform: opacity;
 }
 
-#about-me a:hover{
-    opacity: 100%;
-    transition-duration: .5s;
+#about-me a:hover {
+  opacity: 100%;
+  transition-duration: 0.5s;
 }
 
-#about-me section{
-    vertical-align: middle;
-    display: inline-block;
+#about-me section {
+  vertical-align: middle;
+  display: inline-block;
 }
 
-#about-me section:first{
-    width: 30%;
+#about-me section:first {
+  width: 30%;
 }
 
-#about-me section:last-child{
-    font-size: 20px;
-    width: 50%;
-    line-height: 20px;
-    text-align: left;
+#about-me section:last-child {
+  font-size: 20px;
+  width: 50%;
+  line-height: 20px;
+  text-align: left;
 }
 
 #about-me p {
-    text-indent: 2em;
+  text-indent: 2em;
 }
 
-#about-me h2{
-    margin-bottom: 30px;
-    text-align: left;
+#about-me h2 {
+  margin-bottom: 30px;
+  text-align: left;
 }
 
-#about-me img{
-    filter: grayscale(100%);
+#about-me img {
+  filter: grayscale(100%);
 }
 
 /*-----------------*/
 /*Abilities*/
 #abilities {
-    height: 320px;
+  height: 320px;
 }
 
 #abilities {
-    vertical-align: middle;
-    padding-top: 5%;
-    padding-bottom: 8%;
-    text-align: center;
-    background-color: #1d1e26;
-    color: #f8f8f2;
+  vertical-align: middle;
+  padding-top: 5%;
+  padding-bottom: 8%;
+  text-align: center;
+  background-color: #1d1e26;
+  color: #f8f8f2;
 }
 
-#abilities h2{
-    margin-bottom: 2%;
+#abilities h2 {
+  margin-bottom: 2%;
 }
 
-#abilities img{
-    width: 80px;
-    padding: 1%;
+#abilities img {
+  width: 80px;
+  padding: 1%;
 }
 
-#images, #description{
-    text-align: right;
-    width: 48%;
-    display: inline-block;
+#images,
+#description {
+  text-align: right;
+  width: 48%;
+  display: inline-block;
 }
 
 #description {
-    padding-left: 2%;
-    vertical-align: top;
+  padding-left: 2%;
+  vertical-align: top;
 }
 
-#description p{
-    text-align: left;
-    width: 50%;
-    font-size: larger;
+#description p {
+  text-align: left;
+  width: 50%;
+  font-size: larger;
 }
 
-#images img{
-    opacity: 80%;
+#images img {
+  opacity: 80%;
 }
 
-#images img:hover{
-    opacity: 100%;
-    width: 100px;
+#images img:hover {
+  opacity: 100%;
+  width: 100px;
 }
 /*-----------------*/
 /*foote*/
 
 #footer {
-    background-color: #282a36;
-    padding: 2% 0;
-    text-align: center;
-    font-size: 15px;
+  background-color: #282a36;
+  padding: 2% 0;
+  text-align: center;
+  font-size: 15px;
 }
 
-#footer p, img{
-    display: inline-block;
-    vertical-align: middle;
+#footer p,
+img {
+  display: inline-block;
+  vertical-align: middle;
 }
-
 
 /*-----------------*/
