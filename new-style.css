@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  font-family: 'Fira Code', monospace;
+}
+
+/* NAVEGAÇÃO */
+
+header {
+  height: 50px;
+  background-color: #1D1E26;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  box-shadow: 0 5px 10px 0 rgb(0 0 0 / 15%);
+  padding: 10px;
+}
+
+nav {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+ul li {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 2px solid transparent;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #F2F2F2;
+  font-weight: 500;
+}
+
+ul li:hover {
+  border: 2px solid #f8f8f2;
+  transition-duration: 0.5s;
+}
+
+/* PAGINA PRINCIPAL */
+
+#home {
+  height: 80vh;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #2A2C37;
+}
+
+/* home-left */
+
+#home-left {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+#home-left h1 {
+  font-weight: 700;
+  font-size: 50px;
+  color: #50FA7B;
+}
+
+#home-left p {
+  color: #F2F2F2;
+}
+
+#btn-linkedin {
+  text-align: center;
+  margin-top: 30px;
+  width: 230px;
+  padding: 10px 20px;
+  border-radius: 65px;
+  border: 1px solid #50FA7B;
+  background-color: transparent;
+  color: #50FA7B;
+  font-family: 500;
+  font-size: 12px;
+  height: 40px;
+  transition: width;
+}
+
+#btn-linkedin:hover {
+  width: 250px;
+  border: 2px solid #50FA7B;
+  font-weight: 700;
+  transition-duration: 1s;
+}
+
+/* home-rigth */
+
+#home-right {
+  display: flex;
+  justify-content: center;
+}
+
+#home-right img {
+  border-radius: 100%;
+  border: 10px solid #F2F2F2;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* projects */
+
+#projects {
+  display: flex;
+  flex-direction: column;
+  background-color: #1D1E26;
+  justify-content: space-evenly;
+  padding-top: 50px;
+  height: 80vh;
+}
+
+#projects h2 {
+  margin: 50px 0;
+  font-weight: 700;
+  font-size: 50px;
+  color: #50FA7B;
+  text-align: center;
+}
+
+#projects-imgs section{
+  display: flex;
+  flex-flow: row;
+  justify-content: space-evenly;
+}
+
+#projects-imgs section:nth-child(2) {
+  visibility: hidden;
+}
+
+.div-img img {
+  width: 300px;
+  height: auto;
+  border: 3px solid #F2F2F2; 
+}
+
+.div-img p {
+  color: #F2F2F2;
+  text-align: center;
+  margin-top: 10px;
+}
